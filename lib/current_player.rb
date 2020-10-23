@@ -11,6 +11,7 @@ return occupied_pos
 end
 
 def current_player(board)
+<<<<<<< HEAD
   occupied_pos = turn_count(board)
   
   if occupied_pos % 2 == 0
@@ -19,3 +20,10 @@ def current_player(board)
     return "O"
   end
 end
+=======
+   current_player(board)   <<   if occupied_pos % 2 == 0 ? "X" : "O"
+
+  end
+return current_player(board)  
+end
+>>>>>>> cf94ab4b5f76b7d044c0dad8898ad8172ba93f06
